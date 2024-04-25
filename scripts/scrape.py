@@ -22,10 +22,10 @@ for match in (matches):
             latitude=res[2],
             longitude=res[3],
             depth=res[4],
-            md=res[5],  # Correctly assign the value to md
+            md=res[5], 
             ml=res[6], 
             mw=res[7],
-            location=res[8],  # Assign the combined location
+            location=res[8], 
         )
         print("Saving the quake...")
         quake.save()
